@@ -8,8 +8,10 @@
 # end
 
 deluxe_curfew_checker = 5
+curfew = 11
 if simple_curfew_checker < 11 
   puts "You are in time for curfew :)"
+  puts "curfew-"
 elsif simple_curfew_checker == 11
   puts "You're in trouble. Better get home quick :o"
 else 
